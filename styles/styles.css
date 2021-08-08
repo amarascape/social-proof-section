@@ -44,6 +44,18 @@ body {
   font-size: 15px;
 }
 
+/* || RATINGS */
+.ratings-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* || REVIEWS */
+.reviews-list {
+  list-style-type: none;
+  padding: 0;
+}
+
 /* || ATTRIBUTION */
 
 .attribution {
