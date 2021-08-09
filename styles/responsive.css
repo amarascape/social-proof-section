@@ -19,6 +19,16 @@
   .five-stars {
     margin: 0 1rem;
   }
+  #FIRST-RATING-ITEM {
+    margin-right: 20%;
+  }
+  #SECOND-RATING-ITEM {
+    margin-left: 10%;
+    margin-right: 10%; 
+  }
+  #THIRD-RATING-ITEM {
+    margin-left: 20%;
+  }
   /* || Leading */
   .leading {
     text-align: left;
