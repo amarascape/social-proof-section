@@ -83,6 +83,14 @@ section {
   margin: 1rem 0;
 }
 
+.five-stars {
+  height: 1rem;
+  width: 5.3rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  background-image: url(../images/icon-star.svg);
+}
+
 /* || REVIEWS */
 
 .reviews-list {
