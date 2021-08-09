@@ -32,9 +32,8 @@ main {
 }
 
 footer {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  align-self: flex-end;
+  margin: 0 auto;
 }
 
 /* || GLOBAL STYLES */
@@ -103,7 +102,7 @@ section {
 .review-item {
   background-color: var(--very-dark-magenta);
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem 0;
 }
 
@@ -121,7 +120,7 @@ section {
 .reviewer-comment {
   color: var(--white);
   clear: both;
-  /* padding-bottom: 0;  */
+  margin-bottom: 0;
 }
 
 .reviewer-picture {
