@@ -2,6 +2,10 @@
 
 /* || DESKTOP : for sizes 1250px and larger */
 @media screen and (min-width: 1250px){
+  /* || Centering Main */
+  main {
+    padding-top: 7rem;
+  }
   /* || Main Layout (Grid) */
   main {
     display: grid;
