@@ -83,9 +83,21 @@ section {
   margin: 1rem 0;
 }
 
+/* .five-stars {
+  height: 1rem;
+  width: 5.3rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  background-image: url(../images/icon-star.svg);
+} */
+
 .five-stars {
   height: 1rem;
   width: 5.3rem;
+  min-height: 1rem;
+  min-width: 5.3rem;
+  max-height: 1rem;
+  max-width: 5.3rem;
   margin: auto;
   margin-bottom: 0.5rem;
   background-image: url(../images/icon-star.svg);
