@@ -12,6 +12,10 @@
     grid-column-start: 1;
     grid-column-end: 3;
   }
+  /* || Leading */
+  .leading {
+    text-align: left;
+  }
   /* || Ratings */
   .rating-item {
     display: flex;
@@ -24,14 +28,29 @@
   }
   #SECOND-RATING-ITEM {
     margin-left: 10%;
-    margin-right: 10%; 
+    margin-right: 10%;
   }
   #THIRD-RATING-ITEM {
     margin-left: 20%;
   }
-  /* || Leading */
-  .leading {
-    text-align: left;
+  /* Reviews */
+  .reviews-section {
+    padding-top: 3%
+  }
+  .reviews-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
+  #FIRST-REVIEW-ITEM {
+    margin-bottom: 20%;
+  }
+  #SECOND-REVIEW-ITEM {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #THIRD-REVIEW-ITEM {
+    margin-top: 20%;
   }
 }
 
